@@ -2,101 +2,48 @@ const products = [
 
     {
         id: 1,
-        name: "Love Yourself: Answer",
-        group: "BTS",
+        name: "Red Velvet Queendom",
+        group: "RE VELVET",
         category: "Albums",
         price: 1299,
-        image: "images/bts-album.jpg"
+        image: "images/Red Velvet Queendom.jpg"
     },
 
     {
         id: 2,
-        name: "Formula of Love: O+T=<3",
-        group: "TWICE",
+        name: "red-velvet-album-red-velvet-the-perfect-red-velvet-bad-boy-2nd-repackage-album-kihno-album-34203650982069",
+        group: "RED VELVET",
         category: "Albums",
-        price: 1499,
-        image: "images/twice-album.jpg"
+        price: 1299,
+        image: "images/red-velvet-album-red-velvet-the-perfect-red-velvet-bad-boy-2nd-repackage-album-kihno-album-34203650982069.jpg"
     },
 
     {
         id: 3,
-        name: "Stray Kids Album",
-        group: "Stray Kids",
+        name: "girls-generation-the-7th-album-forever-1-standard-ver-457219",
+        group: "GIRLS GENERATION",
         category: "Albums",
-        price: 1599,
-        image: "images/straykids-album.jpg"
+        price: 1499,
+        image: "images/girls-generation-the-7th-album-forever-1-standard-ver-457219.jpg"
     },
 
     {
         id: 4,
-        name: "Born Pink",
-        group: "BLACKPINK",
-        category: "Albums",
-        price: 1699,
-        image: "images/blackpink-album.jpg"
+        name: "SUPERJUNIOR_Lightstick_Ver.2.0_Detail1-jpg",
+        group: "SUPER JUNIOR",
+        category: "Lightsick",
+        price: 2500,
+        image: "images/SUPERJUNIOR_Lightstick_Ver.2.0_Detail1-jpg.jpg"
     },
 
     {
         id: 5,
-        name: "ARMY Bomb",
-        group: "BTS",
-        category: "Light Sticks",
-        price: 2499,
-        image: "images/bts-lightstick.jpg"
-    },
-
-    {
-        id: 6,
-        name: "CARAT Light Stick",
-        group: "SEVENTEEN",
-        category: "Light Sticks",
-        price: 2599,
-        image: "images/seventeen-lightstick.jpg"
-    },
-
-    {
-        id: 7,
-        name: "Official Light Stick",
-        group: "aespa",
-        category: "Light Sticks",
-        price: 2799,
-        image: "images/aespa-lightstick.jpg"
-    },
-
-    {
-        id: 8,
-        name: "Born Pink Tour Shirt",
-        group: "BLACKPINK",
-        category: "Merch",
-        price: 899,
-        image: "images/blackpink-shirt.jpg"
-    },
-
-    {
-        id: 9,
-        name: "SKZ Fan Hoodie",
-        group: "Stray Kids",
-        category: "Merch",
-        price: 1299,
-        image: "images/straykids-hoodie.jpg"
-    },
-
-    {
-        id: 10,
-        name: "TWICE Photocard Set",
-        group: "TWICE",
-        category: "Photocards",
-        price: 499,
-        image: "images/twice-photocard.jpg"
-    },
-
-    {
-        id: 11,
-        name: "SEVENTEEN Photocard Set",
-        group: "SEVENTEEN",
-        category: "Photocards",
-        price: 499,
-        image: "images/seventeen-photocard.jpg"
+        name: "Official aespa GISELLE Photocard Whiplash KMS 4.0 Lucky Draw Curly Hair",
+        group: "Aespa",
+        category: "Photocard",
+        price: 1500,
+        image: "images/Official aespa GISELLE Photocard Whiplash KMS 4.0 Lucky Draw Curly Hair.jpg"
+    
     }
 
 ];
