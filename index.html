@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SeoulPop Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">💜 SeoulPop</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#albums">Albums</a>
+        <a href="#merch">Merch</a>
+        <a href="#contact">Contact</a>
+        <button onclick="showCart()">🛒 Cart (<span id="cart-count">0</span>)</button>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+
+    <div>
+        <h1>Welcome to SeoulPop 💜</h1>
+
+        <p>
+            Your favorite K-pop albums, photocards and merchandise
+            in one place.
+        </p>
+
+        <a href="#albums" class="shop-button">
+            Shop Now
+        </a>
+    </div>
+
+</section>
+
+<section id="albums" class="products">
+
+    <h2>🎵 K-pop Albums</h2>
+
+    <div class="product-grid">
+
+        <div class="product">
+            <div class="product-image">💿</div>
+
+            <h3>Star Light Album</h3>
+
+            <p>₱1,299</p>
+
+            <button onclick="addToCart('Star Light Album',1299)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product">
+            <div class="product-image">💿</div>
+
+            <h3>Dream Stage Album</h3>
+
+            <p>₱1,499</p>
+
+            <button onclick="addToCart('Dream Stage Album',1499)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product">
+            <div class="product-image">💿</div>
+
+            <h3>Moonlight Album</h3>
+
+            <p>₱1,199</p>
+
+            <button onclick="addToCart('Moonlight Album',1199)">
+                Add to Cart
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="merch" class="products">
+
+    <h2>🛍️ K-pop Merchandise</h2>
+
+    <div class="product-grid">
+
+        <div class="product">
+            <div class="product-image">👕</div>
+
+            <h3>K-pop Hoodie</h3>
+
+            <p>₱1,899</p>
+
+            <button onclick="addToCart('K-pop Hoodie',1899)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product">
+            <div class="product-image">📸</div>
+
+            <h3>Photocard Set</h3>
+
+            <p>₱499</p>
+
+            <button onclick="addToCart('Photocard Set',499)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product">
+            <div class="product-image">✨</div>
+
+            <h3>Light Stick</h3>
+
+            <p>₱2,499</p>
+
+            <button onclick="addToCart('Light Stick',2499)">
+                Add to Cart
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+
+    <h2>Contact SeoulPop</h2>
+
+    <p>Email: hello@seoulpop.example</p>
+
+    <p>📍 Philippines</p>
+
+</section>
+
+<footer>
+
+    <p>© 2026 SeoulPop Store</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
